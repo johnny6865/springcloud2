@@ -3,7 +3,7 @@ server:
 spring:
   application:
     name: microservice-movie #微服务名称
-zipkin:
+  zipkin:
     base-url: http://127.0.0.1:9041
     sender:
       type: web   #通过web服务器给zipkin发送信息
