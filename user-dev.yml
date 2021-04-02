@@ -12,7 +12,7 @@ spring:
       probability: 1  #zipkin利用内置的sleuth组件采集日志信息的概率.0.1代表10%;1代表00%
 
   datasource:
-    url: jdbc:mysql://192.168.41.151:3306/springcloud?characterEncoding=UTF8
+    url: jdbc:mysql://192.168.41.29:3306/jsd20127?characterEncoding=UTF8
     driver-class-name: com.mysql.jdbc.Driver
     username: root
     password: 123456
